@@ -33,7 +33,7 @@ export class PortfolioInfrastructureStack extends cdk.Stack {
             build: {
               commands: [
                 'echo "building the application"',
-                'npm run build-and -export',
+                'npm run build',
                 'echo "build completed"',
               ],
             },
