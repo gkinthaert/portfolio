@@ -101,7 +101,7 @@ export default function Page() {
           >
             {/* Replace /profile.jpg with your own image placed in the /public folder */}
             <Image
-              src="/public/grk.jpg"
+              src="grk.jpg"
               alt="Portrait photo"
               width={132}
               height={132}
