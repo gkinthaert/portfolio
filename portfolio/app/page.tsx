@@ -60,9 +60,9 @@ type SocialLink = {
 }
 
 const socialLinks: SocialLink[] = [
-  { label: "GitHub", href: "https://github.com/gkinthaert", icon: "/github.png" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/gkinthaert", icon: "/linkedin.png" },
-  { label: "Email", href: "mailto:gkinthaert@gmail.com", icon: "/email.png" },
+  { label: "GitHub", href: "https://github.com/gkinthaert", icon: "/public/github.png" },
+  { label: "LinkedIn", href: "https://linkedin.com/in/gkinthaert", icon: "/public/linkedin.png" },
+  { label: "Email", href: "mailto:gkinthaert@gmail.com", icon: "/public/email.png" },
 ]
 
 const pageStyle: CSSProperties = {
@@ -101,7 +101,7 @@ export default function Page() {
           >
             {/* Replace /profile.jpg with your own image placed in the /public folder */}
             <Image
-              src="/grk.jpg"
+              src="/public/grk.jpg"
               alt="Portrait photo"
               width={132}
               height={132}
